@@ -1,0 +1,4 @@
+#Lab03_BPK Plan
+Lin Search vs Bin Search
+Make arrays of varying length, randomly generated within some range--i.e 1000-100000
+Use built-in CurrentTimeMillis to time it
