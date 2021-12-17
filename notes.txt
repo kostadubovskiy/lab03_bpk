@@ -1,3 +1,4 @@
 DISCO 
 
 QCC
+How many trials is reasonable? How big should our arrays be?
