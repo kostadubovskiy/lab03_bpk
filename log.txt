@@ -1,1 +1,2 @@
-first log; not sure what to write here - Perry
+log 1 - not sure what to write here 
+log 2 - figured out what to write. finished plans, readme, and a stub of notes 
