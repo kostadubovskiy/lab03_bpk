@@ -1,4 +1,7 @@
 #Lab03_BPK Plan
 Lin Search vs Bin Search
 Make arrays of varying length, randomly generated within some range--i.e 1000-100000
-Use built-in CurrentTimeMillis to time it
+Use built-in currentTimeMillis to time it
+Run both searches many times with no outside influence like other programs open
+Use average time that it took to run in proportion to how long the array is to compare the two methods
+Use "best case" and "worst case" scenarios and figure out which runs better
