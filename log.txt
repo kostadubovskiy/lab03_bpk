@@ -1,2 +1,5 @@
 2021-12-16 9:07 PM EST
 Perry: Edited plan.txt and README.md. Made log.txt and notes.txt.
+
+2021-12-17 1:07 PM EST
+BPK: Transferred over BinSearch.java and LinSearch.java, updated log.txt, created, recieved, and reviewed issues for peer repos and our own.
