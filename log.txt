@@ -1,2 +1,2 @@
-log 1 - not sure what to write here 
-log 2 - figured out what to write. finished plans, readme, and a stub of notes 
+2021-12-16 9:07 PM EST
+Perry: Finished log.txt, notes.txt, and README.md
