@@ -26,11 +26,19 @@ public class SearchDriver {
 
     System.out.println(""); // line break
 
+    long binTotal = 0;
+    long linTotal = 0;
+
     for (long[] m : data) { // print the data just to double check
-      for (long k : m) {
-        System.out.println(k);
-      }
+      binTotal += m[0];
+      linTotal += m[1];
+      System.out.print("{" + m[0] + ", " + m[1] + "}");
     }
 
+    System.out.println(""); // line break
+    System.out.println("Binary search total time over " + numTests + " tests: " + binTotal);
+    System.out.println("Binary search average time over " + numTests + " tests: " + binTotal / data.length);
+    System.out.println("Linear search total time over " + numTests + " tests: " + linTotal);
+    System.out.println("Linear search average time over " + numTests + " tests: " + linTotal / data.length);
 }
 }
