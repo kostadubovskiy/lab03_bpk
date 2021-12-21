@@ -1,4 +1,5 @@
 DISCO 
-
+On the computers in the lab, our test results had a very large range. CPU usage maxed out whenever we ran our tests (hardware bottleneck?). (RESOLVED: Our 
+data became consistent after changes to the code were made away from the lab.)
 QCC
 How many trials is reasonable? How big should our arrays be? (RESOLVED: Since lines of code are relatively tiny, we should be able to run millions of tests w/o experiencing run-time errors.)
