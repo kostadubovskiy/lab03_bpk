@@ -6,3 +6,6 @@ BPK: Transferred over BinSearch.java and LinSearch.java, updated log.txt, create
 
 2021-12-17 5:37 PM EST
 Perry: Edited SearchDriver.java. 
+
+2021-12-20 10:14 PM EST
+Kosta: Edited SearchDriver.java, implemented test cases and array to store data. Printed data and averages and comparisons on 1000 test cycles.
