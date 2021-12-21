@@ -7,7 +7,7 @@ public class SearchDriver {
       array[i] = (Comparable) i;
     }
 
-    int numTests = 5;
+    int numTests = 1000;
     long[][] data = new long[numTests][2]; // array of arrays to store data, {{binTime, linTime}, {binTime, linTime}, {binTime, linTime}, ...etc}
 
     int i = 0;
