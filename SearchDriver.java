@@ -1,7 +1,7 @@
 public class SearchDriver {
 
     public static void main (String[] args) {
-    int almostMax = 100000000; 
+    int almostMax = 100_000_000; 
     Comparable[] array = new Comparable[almostMax + 1];
     for (int i = 0; i < array.length; i++) {
       array[i] = (Comparable) i;
