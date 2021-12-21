@@ -15,18 +15,18 @@ public class SearchDriver {
       long startTime = System.currentTimeMillis(); //start time
       BinSearch.binSearchRec(array, almostMax, 0, almostMax);
       long endTime = System.currentTimeMillis();   //end time
-      System.out.println(endTime - startTime);     //elapsed time
       data[i][0] = endTime - startTime; // log data
 
       startTime = System.currentTimeMillis(); //start time
       LinSearch.linSearch(array, almostMax);
       endTime = System.currentTimeMillis();   //end time
-      System.out.println(endTime - startTime);     //elapsed time
       data[i][1] = endTime - startTime; // log data
       i++;
     }
-    System.out.println("");
-    for (long[] m : data) {
+
+    System.out.println(""); // line break
+
+    for (long[] m : data) { // print the data just to double check
       for (long k : m) {
         System.out.println(k);
       }
