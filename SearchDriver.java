@@ -8,19 +8,19 @@ public class SearchDriver {
       }
 
       int numTests = 1000;
-      long[][] data = new long[numTests][2]; // array of arrays to store data, {{binTime, linTime}, {binTime, linTime}, {binTime, linTime}, ...etc}
+      long[][] data = new long[numTests][2];  // array of arrays to store data, {{binTime, linTime}, {binTime, linTime}, {binTime, linTime}, ...etc}
 
       int i = 0;
-      while (i < numTests) { // run designated number of tests
-        long startTime = System.currentTimeMillis(); //start time
+      while (i < numTests) {                                     // run designated number of tests
+        long startTime = System.currentTimeMillis();             //start time
         BinSearch.binSearchRec(array, almostMax, 0, almostMax);
-        long endTime = System.currentTimeMillis();   //end time
-        data[i][0] = endTime - startTime; // log data
+        long endTime = System.currentTimeMillis();               //end time
+        data[i][0] = endTime - startTime;                        // log data
 
         startTime = System.currentTimeMillis(); //start time
         LinSearch.linSearch(array, almostMax);
         endTime = System.currentTimeMillis();   //end time
-        data[i][1] = endTime - startTime; // log data
+        data[i][1] = endTime - startTime;       // log data
         i++;
       }
 
