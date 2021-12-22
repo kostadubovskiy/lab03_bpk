@@ -7,8 +7,14 @@ public class SearchDriver {
         array[i] = (Comparable) i;
       }
       int numTests = 1000;
+<<<<<<< HEAD
       while(numTests <= 100000000){
           
+=======
+      while(numTests <= 10000000){
+          numTests *= 10;
+        }
+>>>>>>> 3be0125048377c7f03fc83a255b3dcbe63b7852b
       
       long[][] data = new long[numTests][2];  // array of arrays to store data, {{binTime, linTime}, {binTime, linTime}, {binTime, linTime}, ...etc}
 

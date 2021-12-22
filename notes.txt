@@ -8,3 +8,6 @@ GALLERY TOUR
 Array starting from length of 1000 up to 20000000
 Used not just worst case scenario but also random search
 One group had a rainbow name
+
+One group used a while loop that effectively made it so that however many trials it took the binary search to return a significant time figure, that number of trials would be performed for the linear search. This allowed the binary search result to be
+significant while also keeping the test results consistent and unbiased.
