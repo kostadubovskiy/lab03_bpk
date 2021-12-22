@@ -3,3 +3,8 @@ On the computers in the lab, our test results had a very large range. CPU usage 
 data became consistent after changes to the code were made away from the lab.)
 QCC
 How many trials is reasonable? How big should our arrays be? (RESOLVED: Since lines of code are relatively tiny, we should be able to run millions of tests w/o experiencing run-time errors.)
+
+GALLERY TOUR
+Array starting from length of 1000 up to 20000000
+Used not just worst case scenario but also random search
+One group had a rainbow name
