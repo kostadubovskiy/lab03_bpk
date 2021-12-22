@@ -11,6 +11,7 @@ Search for a number not in the array with both linear and binary search. Repeat 
 <br/>
 Format: {{BinTime, LinTime}, {BinTime, LinTime}, {BinTime, LinTime}, ...etc}
 <br/>
+<br/>
 **Results** <br/>
 <br/>
 Array of length 100,000,000 <br/>
