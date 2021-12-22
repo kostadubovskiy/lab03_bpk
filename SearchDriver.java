@@ -7,7 +7,7 @@ public class SearchDriver {
         array[i] = (Comparable) i;
       }
       int numTests = 1000;
-      while(numTests <= 100000000){
+      while(numTests <= 10000000){
           numTests *= 10;
         }
       
