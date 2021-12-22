@@ -9,3 +9,6 @@ Perry: Edited SearchDriver.java.
 
 2021-12-20 10:14 PM EST
 Kosta: Edited SearchDriver.java, implemented test cases and array to store data. Printed data and averages and comparisons on 1000 test cycles.
+
+2021-12-21 7:04 PM EST
+Perry: Made a table in README.md.
