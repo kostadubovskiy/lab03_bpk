@@ -8,8 +8,7 @@ public class SearchDriver {
       }
       int numTests = 1000;
       while(numTests <= 100000000){
-          numTests *= 10;
-        }
+          
       
       long[][] data = new long[numTests][2];  // array of arrays to store data, {{binTime, linTime}, {binTime, linTime}, {binTime, linTime}, ...etc}
 
@@ -43,5 +42,8 @@ public class SearchDriver {
       System.out.println("Binary search average time over " + numTests + " tests: " + binTotal * 1.0 / data.length);
       System.out.println("Linear search total time over " + numTests + " tests: " + linTotal);
       System.out.println("Linear search average time over " + numTests + " tests: " + linTotal * 1.0 / data.length);
+    numTests *= 10;
+      }
+
   }
 }
